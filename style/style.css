@@ -1,0 +1,207 @@
+:root
+{
+--mainColor: #CD113B;
+--paragraph: #FF7600;
+--backgrounds: #FFA900;
+--roxo: #52006A;
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+aside
+{
+    position: absolute;
+    right: 10px;
+    background-color: #ffaa003c;
+    width: 10%;
+    height: 800px
+}
+
+footer
+{   
+    position: absolute;
+    top: 1700px;
+    background-color: var(--roxo);
+    width: 100%;
+    height: 300px;
+}
+
+.containerBody
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column; 
+    justify-content: space-around;
+}
+
+.containerMain
+{ 
+    margin-left: 12%;
+    width: 60%;
+    margin-top: 5%;
+   
+}
+
+.containerSectionUp
+{
+    background-color: #ffaa003c;
+    color: var(--backgrounds);
+    text-align: justify;
+    margin-top: 10px;
+    height: 520px;
+    
+}
+
+.containerSectionDown
+{
+    background-color: #ffaa003c;
+    color: var(--backgrounds);
+    margin-top: 10px;
+    text-align: justify;
+    margin-top: 15%;
+    height: 570px;
+    z-index: 1;
+}
+
+.textSection
+{
+    color: var(--paragraph);
+    padding: 10px;
+}
+
+.paragraph
+{
+    padding: 20px;
+}
+
+.nav
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--mainColor);
+    z-index: 100;
+    box-shadow: 0px 2px 20px 1px rgba(128, 128, 128, 0.651);
+}
+
+.logo
+{
+    max-width: 25%;   
+}
+
+.divNavConfig
+{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.text
+{
+    color: white;
+}
+
+/* Ícone de pesquisa */
+.searchIcon
+{
+    width: 10%;
+}
+
+/* input da pesquisa */
+.search
+{
+    border-radius: 20px;
+    width: 100%;
+    min-width: 100px;
+    max-width: 400px;
+    height: 25px;
+}
+
+/*ícone de menu */
+.sideIcon
+{
+    width: 80%;
+}
+
+/*botão atrás do ícone de menu*/
+.side
+{
+    background-color: rgba(250, 235, 215, 0);
+    width: 50px;
+    height: 45px;
+}
+
+/* interações com o botão do ícone de menu */
+.side:hover
+{
+    background-color: #ff770042
+}
+.side:active
+{
+    background-color: #ff77006e
+}
+
+.header1
+{
+    display: flex;
+    justify-content: center;
+}
+
+.imgLarnaja1
+{
+    position: absolute;
+    width: 80%;
+    z-index: 1;
+}
+
+.imgLarnaja2
+{
+    position: center;
+    margin-top: 10px;
+    width: 80%;
+    z-index: 2;
+}
+
+.imgAmarelo1
+{
+    position: absolute;
+    width: 60%;  
+}
+
+.imgAmarelo2
+{
+    width: 50%;
+    padding: 10px;
+}
+
+.imgLaranja3
+{
+    width: 40%;
+}
+
+.divImg
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+.Redes
+{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-items: center;
+}
+
+.star
+{
+    width: 190px;
+    z-index: 0;
+}
